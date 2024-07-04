@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #f4f5f6;
+        }
+        h1{
+            font-size:70px;
+            color:rgb(59, 138, 230);
+        }
+        p{
+            font-size:30px;
+        }
+        div{
+            font-family: Cambria;
+            text-align: center;
+        }
+        input{
+            display: block;
+            border-width: 1px;
+            border-color: #cccecf;
+            border-style: solid;
+            margin:15px;
+            border-radius:10px;
+            width: 90%;
+            padding: 10px 0;
+        }
+        .box{
+            background:white;
+            width:400px;
+            height:350px;
+            padding: 20px;
+            margin: 0 200px;
+            border-radius:10px;
+            box-shadow: 0 0 10px rgba(142, 142, 143, 0.5);
+        }
+        form{
+            padding:2px;
+            
+        }
+        button{
+            font-size:30px;
+            border:solid;font-size:30px;width:27vw;color:rgb(59, 138, 230); background-color: rgb(59, 138, 230);
+            border-radius:10px;
+            color:white;
+            height:60px;
+        }
+        #vs{
+            margin-top:60px;
+            font-size: larger;
+            border:0;
+            width:15vw;
+            height:7vh;
+            background-color:rgb(35, 192, 35);
+        }
+        .hp{
+            font-size:20px;
+            text-align: center;
+        }
+        a{
+            color:rgb(59, 138, 230);
+        }
+        #fht{
+            text-align:left;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+          
+            height:80vh
+        }
+        @media (max-width:858px) {
+
+        
+        .container{
+            display: block;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fht">
+            <h1>facebook</h1>
+            <p>facebook helps you connect and share with people in your life.</p>
+        </div>
+            <div class="box">
+                <form>
+                    <input type="email/phone number"placeholder="Enter Email">
+                    <input type="password"placeholder="Enter password">
+                </form>
+            <button>Log in</button>
+            <a href="">forgotten password?</a><br>
+            <button id="vs">Create New Account</button>
+            </div>
+    </div>
+    <p class="hp"><b>create a page</b> celebrity,band or business</p>
+</body>
+</html>
